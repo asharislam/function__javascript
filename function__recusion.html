@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 2rem;
+        }
+    </style>
+
+<script>
+    function fibonacci(num){
+        if (num == 0) return 0;
+        if (num == 1) return 1;
+        return fibonacci(num-1) + fibonacci(num-2);
+    }
+</script>
+
+
+
+</head>
+<body>
+
+
+
+    <script>
+        document.write(fibonacci(4)+'<br>');
+        document.write(fibonacci(5)+'<br>');
+        document.write(fibonacci(6)+'<br>');
+        document.write(fibonacci(40)+'<br>');
+
+
+
+
+        // 0 1 1 2 3 5 8 13..
+    </script>
+</body>
+</html>
